@@ -93,15 +93,15 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 600px;
   width: 100%;
 }
-#fh5co-header .overlay,
-.fh5co-cover .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(255, 144, 0, 0.9);
-}
+    #fh5co-header .overlay,
+    .fh5co-cover .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(79, 143, 186, 0.9);
+    }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
   width: 100%;
@@ -307,8 +307,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-bg-dark {
-  background: #2F3C4F;
-  background: #FF9000;
+    background: #2F3C4F;
+    background: #4F8FBA; /*#FF9000; orig*/
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -668,6 +668,9 @@ h1, h2, h3, h4, h5, h6, figure {
   display: block;
   box-shadow: none;
 }
+.ms-auto {
+    margin-left: auto !important;
+}
 .progress-bar.progress-bar-1 {
   background-color: #2980b9 !important;
 }
@@ -738,12 +741,13 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.work .desc h3 {
+.work .desc h3 {   /*work section*/
   font-size: 20px;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transform: translate3d(0, -15px, 0);
   transform: translate3d(0, -15px, 0);
+  margin-top:40px; /*  etolang pala yung sa work */
 }
 .work .desc span {
   display: block;
