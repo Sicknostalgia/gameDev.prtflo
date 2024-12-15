@@ -51,4 +51,28 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+
+    //*MouseHoverOver*//*
+    document.addEventListener('DOMContentLoaded', function () {
+        const hoverTrigger = document.getElementById('GameDev');
+        const modal = document.getElementById('myLargeModal');
+        const closeModal = document.getElementById('closeModal');
+
+        // Show the modal on hover
+        hoverTrigger.addEventListener('mouseenter', function () {
+            modal.style.display = 'block';
+        });
+
+        // Hide the modal when clicking the close button
+        closeModal.addEventListener('click', function () {
+            modal.style.display = 'none';
+        });
+
+        // Optional: Hide the modal when clicking outside of it
+        window.addEventListener('click', function (event) {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    });
 });
