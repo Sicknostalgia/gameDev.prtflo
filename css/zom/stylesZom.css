@@ -109,7 +109,7 @@ body {
 }
 .wishList {
     background-color: var(--accent-color);
-    color: var(--variant-color);
+    color: /*var(--variant-color)*/gray;
     padding: 0.5em 1em;
     border: none;
     border-radius: 2px;

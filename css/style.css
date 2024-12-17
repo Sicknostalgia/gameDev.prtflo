@@ -344,7 +344,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-started {
     border-bottom: none;
 }
-
+.fh5co-bg-blueocean {
+    background: #518cb1
+}
 .fh5co-bg-dark {
     background: #2F3C4F;
     background: #3893cc; /*#FF9000; orig*/
@@ -1075,7 +1077,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-consult .video {
     display: table;
-    width: 50%;
+    width: 25%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1086,13 +1088,19 @@ h1, h2, h3, h4, h5, h6, figure {
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
+    margin:70px;
+    border-radius:10px;
+    float: left;
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
+    height:400px;
 }
 
 @media screen and (max-width: 768px) {
     #fh5co-consult .video {
-        display: none;
+        display: block;
+        width: 25%;
+
     }
 }
 
@@ -1475,5 +1483,19 @@ input[type="text"] {
 .js .animate-box {
     opacity: 0;
 }
+.imgcollage {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.col-lg-6 {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    grid-gap: 15px;
+}
+
 
 /*# sourceMappingURL=style.css.map */
