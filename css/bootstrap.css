@@ -5405,11 +5405,13 @@ button.close {
 
 .modal-header .close {
   margin-top: -2px;
+  text-align:center;
 }
 
 .modal-title {
   margin: 0;
   line-height: 1.42857;
+/*  text-align:center;*/
 }
 
 .modal-body {
