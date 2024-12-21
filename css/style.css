@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5, h6, figure {
         display: table-cell;
         vertical-align: middle;
         height: 100px;
-        color: #FF9000 !important;
+        color: #000 !important;
     }
 
 #fh5co-features .feature-left .feature-copy {
@@ -445,7 +445,6 @@ h1, h2, h3, h4, h5, h6, figure {
         zoom: 1;
         *display: inline;
     }
-
         #fh5co-about .fh5co-social-icons li a {
             display: -moz-inline-stack;
             display: inline-block;
@@ -467,6 +466,15 @@ h1, h2, h3, h4, h5, h6, figure {
             #fh5co-about .fh5co-social-icons li a:hover {
                 background: #FF9000;
             }
+@media (max-width: 768px) {
+    .fh5co-social-icons li {
+        display: inline-block; /* Change to block to make each icon occupy its own row */
+        text-align: center; /* Center-align the icons if needed */
+        margin-bottom: 10px; /* Add spacing between icons */
+        list-style: none;
+    }
+}
+
 
 .fh5co-heading {
     margin-bottom: 5em;
@@ -833,6 +841,7 @@ h1, h2, h3, h4, h5, h6, figure {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    border-radius:10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -1113,7 +1122,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-consult .choose {
     width: 50%;
-    padding: 4em;
+ /*   padding: 4em;*/
 }
 
 @media screen and (max-width: 768px) {
