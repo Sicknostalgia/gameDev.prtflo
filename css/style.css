@@ -621,7 +621,6 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .timeline > li > .timeline-badge {
     color: #fff;
-    list-style-position: outside;
     width: 44px;
     height: 44px;
     line-height: 50px;
@@ -1097,7 +1096,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-consult .video {
     display: table;
-    width: 25%;
+    width: 75%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1112,13 +1111,15 @@ h1, h2, h3, h4, h5, h6, figure {
     float: left;
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
-    height: 400px;
+    height: 350px;
+    margin: auto;
 }
 
 @media screen and (max-width: 768px) {
     #fh5co-consult .video {
         display: block;
-        width: 25%;
+        width: 100%;
+        margin:auto;
     }
 }
 
@@ -1145,7 +1146,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-video .overlay {
-    position: absolute;
+/*    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -1153,7 +1154,7 @@ h1, h2, h3, h4, h5, h6, figure {
     background: rgba(0, 0, 0, 0.1);
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
-    transition: 0.5s;
+    transition: 0.5s;*/
 }
 
 #fh5co-footer {
