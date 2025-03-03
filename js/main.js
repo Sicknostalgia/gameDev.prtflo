@@ -103,12 +103,12 @@
 	
 	};
 
-	var pieChart = function() {
+	var pieChart = function() {    //atong chart bala
 		$('.chart').easyPieChart({
 			scaleColor: false,
 			lineWidth: 4,
 			lineCap: 'butt',
-			barColor: '#FF9000',
+			barColor: '#39a5cc',
 			trackColor:	"#f5f5f5",
 			size: 160,
 			animate: 1000
